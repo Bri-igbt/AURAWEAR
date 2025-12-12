@@ -1,16 +1,98 @@
-# React + Vite
+Aurawear
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aurawear is a modern clothing e-commerce platform designed to deliver a clean, stylish, and intuitive shopping experience. Built with a focus on user-friendly UI/UX, the platform showcases a curated collection of fashion items that help users express their unique identity and personal style.
 
-Currently, two official plugins are available:
+Aurawear blends technology with fashion—providing smooth navigation, responsive design, and scalable architecture suitable for real-world deployment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+###  **Features**
 
-## React Compiler
+- Modern, responsive UI/UX for seamless browsing on all devices
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Product collections with detailed descriptions, prices, and images
 
-## Expanding the ESLint configuration
+- Smart search & category filtering
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- User authentication (login/signup)
+
+- Shopping cart & checkout flow
+
+- Order management system
+
+- Admin dashboard for managing products
+
+- API-driven backend with secure endpoints
+
+- Scalable folder structure for future improvements
+
+###  **Tech Stack**
+**Frontend**
+
+- React / JavaScript
+
+- Tailwind CSS / CSS Modules
+
+- Axios / Fetch API
+
+**Backend**
+
+- Node.js + Express
+
+- MongoDB 
+
+- Mongoose / Prisma
+
+**Other**
+
+Stripe / Paystack integration
+
+📁 Folder Structure
+
+aurawear/
+│
+├── client/                # Frontend code
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── assets/
+│   │   └── utils/
+│   └── package.json
+│
+├── server/                # Backend API
+│   ├── configs/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── middlewares/
+│   ├── utils/
+│   └── server.js
+│
+├── README.md
+└── package.json
+
+###  **Getting Started**
+
+- Clone the repository
+- git clone https://github.com/your-username/aurawear.git
+- cd aurawear
+
+####  **Install Dependencies**
+
+**Frontend**
+- cd client
+- npm install
+
+**Backend**
+- cd server
+- npm install
+
+### **Run the Project**
+
+**Frontend**
+- cd client
+- npm run dev
+
+**Backend**
+- cd server
+- npm start
+
+
