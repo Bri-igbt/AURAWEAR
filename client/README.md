@@ -45,7 +45,7 @@ Aurawear blends technology with fashion—providing smooth navigation, responsiv
 
 Stripe / Paystack integration
 
-📁 Folder Structure
+### **Folder Structure**
 
 aurawear/
 │
