@@ -1,4 +1,4 @@
-Aurawear
+# **Aurawear**
 
 Aurawear is a modern clothing e-commerce platform designed to deliver a clean, stylish, and intuitive shopping experience. Built with a focus on user-friendly UI/UX, the platform showcases a curated collection of fashion items that help users express their unique identity and personal style.
 
@@ -72,7 +72,7 @@ aurawear/
 ###  **Getting Started**
 
 - Clone the repository
-- git clone https://github.com/your-username/aurawear.git
+- git clone https://github.com/Bri-igbt/AURAWEAR.git
 - cd aurawear
 
 ####  **Install Dependencies**
